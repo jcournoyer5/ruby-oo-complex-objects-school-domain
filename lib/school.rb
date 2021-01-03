@@ -1,3 +1,5 @@
+
+require 'pry'
 class School
     attr_accessor :roster, :name, :grade
     
@@ -13,6 +15,7 @@ class School
     end   
     
     def add_student(name, grade)
+        binding.pry
       #  ["new_student"] = []
       #  ["new_student"] << ("AC Slater", 10)
        # school.add_student
