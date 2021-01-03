@@ -3,8 +3,14 @@ class School
     
     def initialize(roster)
         @roster = roster
-       
         
         @roster = {} 
-    end    
+    end   
+    
+    def add_student
+      #  ["new_student"] = []
+      #  ["new_student"] << ("AC Slater", 10)
+        school.add_student("AC Slater", 10)
+        school.roster
+    end
 end
