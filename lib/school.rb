@@ -9,7 +9,7 @@ class School
     def add_student
       #  ["new_student"] = []
       #  ["new_student"] << ("AC Slater", 10)
-        school.add_student
-        school.roster
+       # school.add_student
+      #  school.roster
     end
 end
