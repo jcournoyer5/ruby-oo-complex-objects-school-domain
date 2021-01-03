@@ -12,7 +12,7 @@ class School
         @roster = {} 
     end   
     
-    def add_student
+    def add_student(name, grade)
       #  ["new_student"] = []
       #  ["new_student"] << ("AC Slater", 10)
        # school.add_student
