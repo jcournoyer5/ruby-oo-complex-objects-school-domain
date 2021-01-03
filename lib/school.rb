@@ -1,7 +1,7 @@
 class School
     attr_accessor :roster, :name, :grade
     
-    ruby school = School.new("Bayside High School")
+    #ruby school = School.new("Bayside High School")
     
     def initialize(roster)
         @roster = roster
