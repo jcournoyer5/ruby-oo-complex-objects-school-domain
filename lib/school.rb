@@ -1,8 +1,10 @@
 class School
+    attr_accessor :roster, :length
     
     def initialize(roster)
         @roster = roster
+        @length = length
         
-        @roster = 0
+        @roster.length = 0
     end    
 end
