@@ -4,7 +4,7 @@ class School
    # def initialize(school)
      #   @school = school
          
-         ruby school = School.new("Bayside High School")
+         #ruby school = School.new("Bayside High School")
    # end
     
     def initialize(roster)
@@ -22,8 +22,8 @@ class School
     def grade
     end
     
-    school.add_student("AC Slater", 9)
-    school.add_student("Kelly Kapowski", 10)
-    school.add_student("Screech", 11)
+   # school.add_student("AC Slater", 9)
+   # school.add_student("Kelly Kapowski", 10)
+   # school.add_student("Screech", 11)
 
 end
