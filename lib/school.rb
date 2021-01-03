@@ -4,7 +4,7 @@ class School
    # def initialize(school)
      #   @school = school
          
-        School.new("Bayside High School")
+         ruby school = School.new("Bayside High School")
    # end
     
     def initialize(roster)
