@@ -3,14 +3,14 @@
 class School
     
    def school=(school_name) 
-      this_school = school_name
+      ruby_school = school_name
       
       def school_name
-          this_school
-      end  
-          ruby school = School.new
-          ruby school.name = "Bayside High School"
-       
+          ruby_school
+        
+          ruby_school = School.new
+          ruby_school.name = "Bayside High School"
+      end
       
        
    end   
