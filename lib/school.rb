@@ -10,13 +10,18 @@ class School
     
     def initialize(roster)
         @roster = roster
-        @roster = {} 
-        @roster ["new_student"] = []
+        @roster = {
+            9=>["Homer Simpson"], 
+            10=>["Jeff Baird", "Avi Flombaum"], 
+            7=>["Blake Johnson"]
+            
+        }
+        
        # @roster ["new_student"] << ("AC Slater", 10)
     end   
     
     def add_student(name, grade)
-       
+       @roster ["new_student"] = []
       
        # school.add_student
       #  school.roster
