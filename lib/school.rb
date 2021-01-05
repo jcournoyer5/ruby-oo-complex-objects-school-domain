@@ -1,7 +1,23 @@
 
 
 class School
-    attr_accessor :roster, :name, :grade
+    
+   def school=(school_name) 
+      this_school = school_name
+      
+      def school_name
+          this_school
+      end  
+          ruby school = School.new
+          ruby school.name = "Bayside High School"
+       
+      
+       
+   end   
+   
+
+
+   
     
    # def initialize(school)
      #   @school = school
@@ -35,6 +51,9 @@ class School
 
 end
 
+#@roster.collect do |name, grade|
+    #name
+#end
 
 #class School
    # attr_accessor :roster, :name, :grade
