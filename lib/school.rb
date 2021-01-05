@@ -11,16 +11,12 @@ class School
   #  default_hash = Hash.new
     #default_hash.default = 1
     
-  #  def initialize(roster = {})
-  #      @roster = roster
-  #      @roster = {
-   #         9=>["Homer Simpson"], 
-   #         10=>["Jeff Baird", "Avi Flombaum"], 
-   #         7=>["Blake Johnson"]
-            
-       # }
-        roster = {}
-       roster["new_student"] = "AC Slater"
+   def initialize(roster)
+        @roster = roster
+        @roster = {}
+   end    
+       # roster = {}
+       #roster["new_student"] = "AC Slater"
       
     
    # def add_student(name, grade)
