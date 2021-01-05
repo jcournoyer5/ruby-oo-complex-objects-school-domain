@@ -2,10 +2,10 @@
 class School
    # attr_accessor :roster, :name, :grade
     
-   # def initialize(school)
-     #   @school = school
+    def initialize(school)
+       @school = school
          
-         #ruby school = School.new("Bayside High School")
+    end     #ruby school = School.new("Bayside High School")
    # end
     
   #  default_hash = Hash.new
