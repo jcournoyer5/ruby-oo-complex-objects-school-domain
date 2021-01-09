@@ -7,7 +7,7 @@ class School
     def initialize(roster)
         @roster = {} 
         
-        @roster << ["AC Slater, 10"]
+       # @roster << ["AC Slater, 10"]
        # @roster[name] = []
       #  @roster["name"] << "AC Slater"
        # shipping_manifest["jar of molasses"] = 10
