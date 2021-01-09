@@ -11,7 +11,7 @@ class School
     
     
     def add_student(name, grade)
-       @roster["AC Slater"] = "10"
+       @roster["name"] = "grade"
       
        # school.add_student
       #  school.roster
