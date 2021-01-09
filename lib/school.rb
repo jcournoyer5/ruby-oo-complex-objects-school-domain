@@ -1,21 +1,17 @@
 
 
 class School
-    
+    attr_accessor :roster
   
     
     def initialize(roster)
-      @roster = roster
         @roster = {} 
-        
-       # @roster << ["AC Slater, 10"]
-       # @roster[name] = []
-      #  @roster["name"] << "AC Slater"
-       # shipping_manifest["jar of molasses"] = 10
-    end   
+    end
+    
+    
     
     def add_student(name, grade)
-       
+       @roster["AC Slater"] = "10"
       
        # school.add_student
       #  school.roster
