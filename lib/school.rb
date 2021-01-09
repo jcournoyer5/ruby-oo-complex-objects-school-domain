@@ -2,29 +2,12 @@
 
 class School
     
-   def school=(school_name) 
-      ruby_school = school_name
-      
-      def school_name
-          ruby_school
-        
-          ruby_school = School.new
-          ruby_school.name = "Bayside High School"
-      end
-       
-   end   
-   
-    
-   # def initialize(school)
-     #   @school = school
-         
-         #ruby school = School.new("Bayside High School")
-   # end
+  
     
     def initialize(roster)
         @roster = {} 
         
-        @roster["AC Slater"] = 10
+        @roster << ["AC Slater, 10"]
        # @roster[name] = []
       #  @roster["name"] << "AC Slater"
        # shipping_manifest["jar of molasses"] = 10
@@ -87,3 +70,4 @@ end
  #   school.add_student("Screech", 11)
 
 #end
+
