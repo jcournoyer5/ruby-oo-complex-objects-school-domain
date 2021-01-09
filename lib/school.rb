@@ -11,12 +11,8 @@ class School
           ruby_school = School.new
           ruby_school.name = "Bayside High School"
       end
-      
        
    end   
-   
-
-
    
     
    # def initialize(school)
@@ -26,7 +22,6 @@ class School
    # end
     
     def initialize(roster)
-        @roster = roster
         @roster = {} 
         
         @roster["AC Slater"] = 10
@@ -42,7 +37,10 @@ class School
       #  school.roster
     end
     
-    def grade
+    def grade(name)
+        @roster.collect do |name, grade|
+        name
+    end
     end
     
    # school.add_student("AC Slater", 9)
@@ -51,9 +49,7 @@ class School
 
 end
 
-#@roster.collect do |name, grade|
-    #name
-#end
+
 
 #class School
    # attr_accessor :roster, :name, :grade
