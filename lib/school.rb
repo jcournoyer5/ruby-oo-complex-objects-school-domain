@@ -5,6 +5,7 @@ class School
   
     
     def initialize(roster)
+      @roster = roster
         @roster = {} 
         
        # @roster << ["AC Slater, 10"]
